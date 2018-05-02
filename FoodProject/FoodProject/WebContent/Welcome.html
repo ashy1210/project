@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Foodies.com</title>
+<style>
+body {
+    background-image: url("food-salad-restaurant-person1.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+    border: 5px solid rgba(255, 255, 255, .5);;
+    background-color:  yellow;
+	color:blue;
+	padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+	text-align:center;
+	
+	
+}
+h2{
+color:white;
+
+}
+input[type=text], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	width: 100%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+div {
+	/* opacity: 0.5; */
+	float: left;
+	align: right;
+	height: 300px;
+	width: 500px;
+	border-radius: 15px;
+	background: rgba(76, 175, 80, 0.1);
+	/*     background-color: #f2f2f2; */
+	padding: 20px;
+}
+
+</style>
+</head>
+<body>
+<h1>FOODIES.com
+
+
+</h1>
+
+<marquee><h2>Welcome to foodies.com!
+
+</h2></marquee>
+<font color="white" size=100>Online Food Order</font></center>
+
+	<div>
+		<form action="action_page.php">
+			<label for="fname"><font color="white">Select City</font></label> 
+			
+						
+			<label for="fname"><font color="white">Select City</font></label>
+			
+			<select onchange="location = this.options[this.selectedIndex].value;" id="companyname" name="companyname">
+				<option>Select City</option>
+				<option value="Delhi.html">Delhi</option>
+				<option value="Mumbai.html">Mumbai</option>
+				<option value="Pune.html">Pune</option>
+				<option value="Kolkata.html">Kolkata</option>
+				<option value="Hyderabad.html">Hyderabad</option>
+			</select> 
+			<input type="submit" value="Find Food">
+		</form>
+	</div> 
+
+</body>
+</html>
